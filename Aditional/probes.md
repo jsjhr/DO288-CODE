@@ -1,10 +1,10 @@
 Crear un nuevo proyecto liveness-readiness-healthchecks
 
-	oc new-project liveness-readiness-healthchecks
+	oc new-project probes
 
 Crear una nueva aplicación con la imagen rhel7:7.3
 
-	oc new-app --name checkprobe services.lab5.example.com:5000/rhel7:7.3
+	oc new-app --name checkprobe registry.lab.example.com:5000/rhel7:7.3
 
 Agregar argumentos al deploymentconfig
 
