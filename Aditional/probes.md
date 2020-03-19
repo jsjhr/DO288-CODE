@@ -30,7 +30,18 @@ Agregar argumentos al deploymentconfig
         terminationMessagePolicy: File
       dnsPolicy: ClusterFirst
       restartPolicy: Always
-
+```
+spec:
+  containers:
+    -
+    name: example-spring-boot
+    image: 'image'
+    command:
+      - java
+    args:
+      - '-jar'
+      - /opt/app-root/springboots2idemo.jar
+```
 Revisar que la aplicación esté ejecutando:
 
 	oc get pods
