@@ -9,7 +9,7 @@
 
   <properties>
     <version.wildfly.swarm>2017.12.1</version.wildfly.swarm>
-    <version.mysql>6.0.6</version.mysql>
+    <version.mysql>8.0.28</version.mysql>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <failOnMissingWebXml>false</failOnMissingWebXml>
